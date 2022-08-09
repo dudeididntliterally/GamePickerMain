@@ -18,14 +18,6 @@ end
 end})
 
 LoadGame:AddButton({
-Name = "Tower Of Misery (DIFFERENT UI)",
-Callback = function()
-if game.PlaceId == 4954752502 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/gamesxddd/main/TowerOfMisery.lua"))()
-end
-end})
-
-LoadGame:AddButton({
 Name = "Guess The Image",
 Callback = function()
 if game.PlaceId == 5485800385 then
